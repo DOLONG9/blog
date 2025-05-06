@@ -13,6 +13,13 @@ export const sharedPageComponents: SharedLayout = {
         repoId: 'R_kgDON3G-Mw',
         category: 'Announcements',
         categoryId: 'DIC_kwDON3G-M84Cp1Iw',
+        mapping: 'pathname',    // 이 값 추가
+        strict: '0',            // 이 값 추가
+        reactionsEnabled: '1',  // 이 값 추가
+        emitMetadata: '0',      // 이 값 추가
+        inputPosition: 'bottom', // 이 값 추가
+        theme: 'preferred_color_scheme', // 이 값 추가
+        lang: 'ko'              // 이 값 추가
       },
     }),
   ],
