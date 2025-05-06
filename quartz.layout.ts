@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
         repo: 'DOLONG9/blog',
         repoId: 'R_kgDON3G-Mw',
         category: 'Announcements',
-        categoryId: 'DIC_kwDON3G-M84Cp1Ix',
+        categoryId: 'DIC_kwDON3G-M84Cp1Iw',
       },
     }),
   ],
