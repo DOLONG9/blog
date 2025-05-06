@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       options: {
         repo: 'DOLONG9/blog',
         repoId: 'R_kgDON3G-Mw',
-        category: 'General',
+        category: 'Announcements',
         categoryId: 'DIC_kwDON3G-M84Cp1Ix',
       },
     }),
