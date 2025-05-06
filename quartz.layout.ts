@@ -5,7 +5,17 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'DOLONG9/blog',
+        repoId: 'R_kgDON3G-Mw',
+        category: 'General',
+        categoryId: 'DIC_kwDON3G-M84Cp1Ix',
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
@@ -48,19 +58,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
-
-<script src="https://giscus.app/client.js"
-        data-repo="DOLONG9/blog"
-        data-repo-id="R_kgDON3G-Mw"
-        data-category="General"
-        data-category-id="DIC_kwDON3G-M84Cp1Ix"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="ko"
-        crossorigin="anonymous"
-        async>
-</script>
