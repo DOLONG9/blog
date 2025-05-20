@@ -36,7 +36,7 @@ interface BreadcrumbOptions {
 
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "❯",
-  rootName: "안녕하세요. DevOps 엔지니어 Dorong입니다.",
+  rootName: "Home",
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
   showCurrentPage: true,
