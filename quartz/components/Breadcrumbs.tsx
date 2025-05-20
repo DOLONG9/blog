@@ -3,6 +3,8 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, joinSegments, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
+import { JSX } from "preact"
+import { Fragment } from "preact"
 
 type CrumbData = {
   displayName: string
@@ -34,7 +36,7 @@ interface BreadcrumbOptions {
 
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "❯",
-  rootName: "Home",
+  rootName: "안녕하세요. DevOps 엔지니어 Dorong입니다.",
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
   showCurrentPage: true,
@@ -61,7 +63,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
   }: QuartzComponentProps) => {
     // Hide crumbs on root if enabled
     if (options.hideOnRoot && fileData.slug === "index") {
-      return <></>
+      return <Fragment></Fragment>
     }
 
     // Format entry for root element
