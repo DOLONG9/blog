@@ -8,8 +8,7 @@ permalink: /
 ---
 
 # Dorong9의 기술블로그에 오신 것을 환영합니다
-```table-of-contents
-```
+
 > [!info]
 > 안녕
 
