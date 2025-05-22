@@ -3,15 +3,15 @@ created: 2024-09-24 09:51:33
 updated: 2024-10-05 10:00:52
 dg-home: true
 dg-publish: true
-title: 안녕하세요. DevOps 엔지니어 Dorong입니다.
+title: 안녕하세요. DevOps 엔지니어 Dorong9입니다.
 permalink: /
 ---
 
-# 저의 디지털 가든에 오신것을 환영합니다
+# Dorong9의 기술블로그에 오신 것을 환영합니다
 
 환영합니다! 👋
 
-저는 이동구입니다.
+저는 Dorong9 입니다.
 
 ### 필자는 누구인가?
 
